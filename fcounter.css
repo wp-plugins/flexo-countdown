@@ -1,0 +1,60 @@
+.multiple_timer .counter .counter_digit, .multiple_timer .counter .counter_digit_tens, .multiple_timer .counter .counter_digit_hours, .multiple_timer .counter .counter_digit_hours2 {
+    background-image: url("images/multiple_digits.gif");
+    float: left;
+    height: 28px;
+    margin-bottom: 7px;
+    margin-left: 1px;
+    margin-top: 5px;
+    width: 20px;
+}
+.multiple_timer .counter .counter_digit_tens {
+    background-image: url("images/multiple_digits_tens.gif");
+}
+.multiple_timer .counter .counter_digit_hours {
+    background-image: url("images/multiple_digits_hours.gif");
+}
+.multiple_timer .counter .counter_digit_hours2 {
+    background-image: url("images/multiple_digits_hours2.gif");
+}
+.multiple_timer {
+    padding: 8px 0 8px 8px;
+}
+.multiple_timer strong {
+    color: #0C4A72;
+    display: block;
+    text-shadow: 0 1px 0 #EEEEFF;
+}
+
+.multiple_timer p{
+	padding:0;
+	margin:0;
+}
+.multiple_timer {
+	width:161px;
+padding: 8px;
+padding-right: 0px;
+background-image: url('images/multiple_timer.gif');
+background-repeat: no-repeat;
+margin-top: 6px;
+border-bottom: 1px solid #C8E4F6;
+}
+
+.multiple_timer .counter {
+width: 47px;
+float: left;
+background-image: url('images/multiple_counter.gif');
+margin-right: 3px;
+margin-top: 8px;
+background-repeat: no-repeat;
+padding-left: 2px;
+}
+
+.multiple_timer .counter b {
+display: block;
+width: 47px;
+text-align: center;
+font-weight: normal;
+color: #68B3E7;
+font-size: 11px;
+text-shadow: 0px 1px 0 white;
+}
